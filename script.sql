@@ -1,0 +1,8 @@
+CREATE TABLE cita (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    Fecha DATE NOT NULL,
+    Hora TIME NOT NULL,
+    Motivo TEXT NOT NULL
+);
